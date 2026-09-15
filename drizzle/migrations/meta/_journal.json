@@ -15,6 +15,13 @@
       "when": 1789463952411,
       "tag": "0001_review_photos_policies",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789464417403,
+      "tag": "0002_create_categories_and_roles",
+      "breakpoints": true
     }
   ]
 }

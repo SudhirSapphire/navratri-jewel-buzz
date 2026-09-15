@@ -215,7 +215,9 @@ function Index() {
             <div className="mt-5 inline-flex items-center gap-3 rounded-full border border-border bg-card/70 px-5 py-2">
               <Stars value={Math.round(average)} />
               <span className="text-sm font-medium">{average.toFixed(1)} / 5</span>
-              <span className="text-sm text-muted-foreground">· {count} reviews</span>
+              <span className="text-sm text-muted-foreground">
+                · {count} {count === 1 ? "review" : "reviews"}
+              </span>
             </div>
           )}
         </div>
